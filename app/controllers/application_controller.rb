@@ -11,7 +11,7 @@ class App < Sinatra::Base
     post "/" do
       erb :super_hero
     end
-    
+
     post "/team" do
 
       erb :team
