@@ -23,7 +23,6 @@ class App < Sinatra::Base
       params[:team][:members].each do |guy|
         Member.new(guy)
       end
-      @members = Member.all
 
       erb :team
     end
