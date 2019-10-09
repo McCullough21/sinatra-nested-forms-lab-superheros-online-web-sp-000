@@ -10,8 +10,8 @@ attr_accessor :name, :power, :bio
    @@all << self
  end
 
-def self.all 
-  @@all 
+def self.all
+  @@all
 end
 
 end
