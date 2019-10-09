@@ -13,6 +13,11 @@ class App < Sinatra::Base
     end
 
     post "/teams" do
+      erb :super_hero
+    end
+
+    post '/teams' do
+  
       @team = Team.new(params[:team])
 
       params[:team][:members].each do |guy|
