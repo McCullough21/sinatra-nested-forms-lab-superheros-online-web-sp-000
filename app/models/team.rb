@@ -6,5 +6,10 @@ class Team
     @motto = motto
     @name = name
     @@all << self
+  end
+
+  def self.all 
+    @@all
+  end
 
 end
